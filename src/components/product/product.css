@@ -1,0 +1,36 @@
+    .products{
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        gap: 20px;
+    }
+
+
+.single-product{
+    max-width: 200px;
+    margin: 0 30px;
+    gap: 20px;
+    font-style: inherit;
+}
+
+.single-product img{
+    width: 300px;
+    border-radius: 2px;
+}
+
+.single-product button{
+    margin-left: 10px;
+    background-color: rgb(9, 96, 247);
+    color: antiquewhite;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+
+.single-product h3{
+    font-size: 1.75rem;
+}
+
+.single-product span{
+    font-size: 14px;
+    font-weight: 700;
+}

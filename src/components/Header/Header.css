@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 10%;
+    background-color:#212121;
+    color: white;
+    font: inherit;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    transform: translateY(-60px);
+    animation: stickyHeader 0.3s ease forwards;
+}
+
+@keyframes stickyHeader{
+    0% {transform: translateY(-60px);}
+    100%{transform: translateY(0);}
+}
+
+.cart{
+    position: relative;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.items{
+    position: absolute;
+    top: -5;
+    right: -12;
+    font-size: 1rem;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .header{
+        width: 100%;
+        padding: 10px;
+    }
+
+}
